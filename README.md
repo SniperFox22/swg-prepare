@@ -61,7 +61,7 @@ Now, we can install git using this command:
 
 Next, we want to download the swg-prepare repository. This repository contains stuff you need to get your system ready.
 
-`git clone https://github.com/SWGEvolve/swg-prepare.git`
+`git clone https://github.com/SniperFox22/swg-prepare.git`
 
 Start off by running the following command:
 
