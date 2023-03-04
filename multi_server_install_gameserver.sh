@@ -42,7 +42,7 @@ source /etc/profile.d/java.sh
 printf -- "\n\nFetching Install files from Source\n"
 pause
 #Fetch Install files from Source
-git clone https://github.com/SWG-Source/swg-main.git ~/swg-main
+git clone https://github.com/SniperFox22/swg-main.git ~/swg-main
 
 pause
 printf -- "\n\n##############################\n\n"
