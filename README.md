@@ -8,13 +8,25 @@ Modified by RezecNoble - Designed for Oracle Linux 8 / Alma Linux 8 / Rocky Linu
 Modified by SniperFox22 to add missing steps and the procedure for enabling atmospheric flight on your own servers
 
 The first step is to install Oracle Linux 8.7 server
-Download the Oracle 8.7 server ISO
-https://yum.oracle.com/ISOS/OracleLinux/OL8/u7/x86_64/OracleLinux-R8-U7-x86_64-dvd.iso
-Download Rufus (Tool for creating USB boot drive)
-https://rufus.ie/en/
-Use Rufus to create a USB boot drive from the ISO you downloaded. After you select the "device" as the USB drive you want to use, and select the ISO you downloaded aas "boot_selection" hit start. When you get the popup choose "dd" install
 
-After you create the boot drive reboot into this drive by hitting F12 on your keyboard as it is restarting to get to your boot menu. Select to boot from the USB boot drive you just created.
+Download the Oracle 8.7 server ISO
+
+https://yum.oracle.com/ISOS/OracleLinux/OL8/u7/x86_64/OracleLinux-R8-U7-x86_64-dvd.iso
+
+Download Rufus (Tool for creating USB boot drive)
+
+https://rufus.ie/en/
+
+Use Rufus to create a USB boot drive from the ISO you downloaded. 
+
+After you select the "device" as the USB drive you want to use, and select the ISO you downloaded aas "boot_selection" hit start. 
+
+When you get the popup choose "dd" install
+
+After you create the boot drive reboot into this drive by hitting F12 on your keyboard as it is restarting to get to your boot menu. 
+
+Select to boot from the USB boot drive you just created.
+
 This should start the Oracle 8.7 install, after choosing your language hit next.
 
 Now setup a root password as "swg"
@@ -22,6 +34,7 @@ Now setup a root password as "swg"
 Now setup a user as "swg" and there password as "swg" and hit the checkbox for "administrator" so they have sudo rights.
 
 After this select the location to install the system, and configure your network and install the operating system.
+
 After this is done restart and log in as the "swg” user using “swg” as the password
 
 This guide and script are going to assume the hostname/username of swg. Future releases will include a config file for defining custom variables.
