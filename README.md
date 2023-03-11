@@ -181,7 +181,9 @@ let this compile finish, after it is done the game is now compiled with the atmo
 
 Now restart, and on restart log back into the "swg" user and open a terminal window 
 
-(THESE ARE THE STEPS YOU USE TO START YOUR SERVER AFTER STARTING THE SYSTEM EACH TIME)
+
+
+NOTE: THE STEPS BELOW ARE WHAT YOU USE TO START YOUR SERVER AFTER STARTING THE PC EACH TIME
 
 Switch to the oracle user
 
