@@ -207,7 +207,7 @@ after it goes back to the oracle user type this to start the listener
 
 once the listener has started we are ready to startup the server, go back to the main directory
 
-`cd ~/swg-main'
+`cd ~/swg-main`
 
 and start the server using
 
