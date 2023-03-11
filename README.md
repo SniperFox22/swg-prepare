@@ -138,7 +138,9 @@ SID: swg`
 
 With both these connections created, close this window. Your two new connections will now appear on the list on the left-hand side. Double-click on system@swg to connect as system.
 
-Now we want to rebuild the server with Atmospheric flight enabled
+Now we want to rebuild the server with Atmospheric flight enabled 
+
+Note: This is only required if you server was built with another GIT database, if you used my modified SWG-prepare script I have already implemented atmospheric flight in its current development stage in my master branch. so you can skip down to the "restart your PC" and do not need to git checkout or ant compile the code again. (unless features get added/updated) 
 
 In a new terminal window navigate to the src directory
 
